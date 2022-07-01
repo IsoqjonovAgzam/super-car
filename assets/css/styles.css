@@ -273,11 +273,17 @@ padding-top: 9rem;
 
 }
 .home__img{
-  width: 280px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   justify-self: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   
-
 }
+
+
 .home__car{
   display: flex;
   justify-content: center;
